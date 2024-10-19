@@ -8,7 +8,7 @@ const ebulicaoK = 373
 
 func main() {
     var tempK = ebulicaoK
-    var tempC = (tempK - 273)*5/9
+    var tempC = (tempK - 273)
     
   fmt.Println("A temperatura de ebulição da água em °K = ", tempK)
   fmt.Println("A temperatura de ebulição da água em °C = ", tempC)
